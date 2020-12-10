@@ -1,0 +1,22 @@
+<%= form_for(approach) do |f| %>
+  <% if approach.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(approach.errors.count, "error") %> prohibited this approach from being saved:</h2>
+
+      <ul>
+      <% approach.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :text %>
+    <%= f.text_field :text %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

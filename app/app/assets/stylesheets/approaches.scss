@@ -1,3 +1,65 @@
 // Place all the styles related to the approaches controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.top{
+    width: auto;
+}
+
+.top h1{
+    font-size: 85px;
+    text-align: left;
+    line-height: 120px;
+    margin-top: 175px;
+    margin-left: 465px;
+    color: black;
+}
+
+.top p{
+    color: black;
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+.mid-pic{
+    margin-top: 235px;
+}
+
+
+.mid-pic img{
+    width: 1188px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.mid-text{
+    margin-top: 215px;
+    margin-left: 475px;
+    height: 10px;
+}
+
+.mid-text h2{
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.mid-text p{
+    line-height: 10px;
+    height: 10px;
+}
+
+.scroll{
+    height: 10px;
+}
+
+.mid-pic-2{
+    margin-top: 235px;
+}
+
+
+.mid-pic-2 img{
+    width: 1188px;
+    height: auto;
+    margin-left: 71px;
+}

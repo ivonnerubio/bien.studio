@@ -2,24 +2,53 @@
 <html>
   <head>
     <title>Bien.Studio</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <div id="vertical"> 
-  <div class="wrapper">
-    <a class="contact" href="#">Instagram</a>
-    <a class="contact" href="#">Email</a>
-    <a class="contact" href="#">Credits</a>
-  </div>      
-</div>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Bien.Studio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="/works">Projects</a>
+          <a class="nav-item nav-link" href="/abouts">Studio</a>
+          <a class="nav-item nav-link" href="/approaches">Approach</a>
+          <a class="nav-item nav-link" href="/contacts">Contact</a>
+          <a class="nav-item nav-link" href="/notes">Notes</a>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="navbar-vertical"> 
+      <div class="wrapper">
+        <a id = "notes" href="/notes">Notes</a>
+        <a href="/contacts">Contact</a>
+        <a href="/approaches">Aproach</a>
+        <a href="/abouts">Studio</a>
+        <a href="/works">Projects</a>
+      </div>      
+    </div>
 
   </head>
 
   <body>
-  <%= yield %>
-
-
-
-
-
+      <%= yield %>
+      
+      
+      
+      
+      
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
+  
 </html>

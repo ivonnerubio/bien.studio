@@ -1,33 +1,162 @@
 // Place all the styles related to the works controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.blank{
-  padding-bottom: 135px;
-}
 
 .project-container{
-text-align: center;
-  border: solid;
-  border-color: purple;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 
-.header{
-  padding-bottom: 160px;
-    border: solid;
-  border-color: green;
+.header {
+  padding: 65px 22px;
+  height: 170px;
+  margin: auto;
+  text-align: left;
 }
 
+.header h1{
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+  font-size: 41px; 
+  font-style: normal;  
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 15.4px;
+  letter-spacing: 1.5px;
+}
 
+.project{
+  height: 135px;
+  text-align: center;
+  padding: 5px 23px;
+}
 
-h1 { font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
-font-size: 80px; 
+.project-text{
+  width: 380px;
+  text-align: left;
+  margin: auto;
+  height: 180px;
+}
+
+.project-text p{
+  padding: 15px 0px;
+}
+
+.project a { font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+font-size: 38px; 
 font-style: normal; 
 font-variant: normal; 
 font-weight: 500; 
 line-height: 15.4px;
-letter-spacing: 3px;
-} 
+text-decoration: none; 
+position: relative;
+color: black;
+background: transparent;
+}
+
+
+.project-img{
+  display: none;
+}
+
+
+p { font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+font-size: 18px; 
+font-style: normal; 
+font-variant: normal; 
+font-weight: 100px; 
+line-height: 20px; 
+color: gray;
+position: relative;
+left: -30px;
+}
+
+
+.work-together{
+  background: #161616;
+  padding: 90px 0px;
+  height: 1000px;
+}
+
+.content{
+  padding-left: 25px;
+  padding-top: 5px;
+  width: 300px;
+
+}
+
+#header{
+  color: white;
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  
+}
+
+.email{
+  padding-top: 30px;
+}
+
+.email h2{
+  font-size: 16px;
+  color: white; 
+  font-weight: 300;
+}
+
+.email a{
+  font-size: 16px;
+  color: white; 
+  font-weight: 300;
+}
+
+
+.social-media{
+  margin-top: 35px;
+  width: 350px;
+  color: gray;
+}
+
+.card{
+  font-size: 16px;
+  
+  line-height: 30px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+  .header h1{
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+  font-size: 80px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 15.4px;
+  letter-spacing: 3px;
+  }
+  
+.header h1{
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+  font-size: 41px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 15.4px;
+  letter-spacing: 1.5px;
+}
+
 
 .project{
   height: 180px;
@@ -111,38 +240,17 @@ left: -30px;
 
 
 
+.some-paragraph{
+    font-size: 5vw;
+}
+
+
+
+
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-blockquote { font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
-font-size: 21px; 
-font-style: normal; 
-font-variant: normal; 
-font-weight: 400; 
-line-height: 30px; }
-
-pre { font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
-font-size: 13px; 
-font-style: normal; 
-font-variant: normal; 
-font-weight: 400; 
-line-height: 18.5714px; }
 

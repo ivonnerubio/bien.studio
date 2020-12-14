@@ -1,27 +1,48 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Approaches</h1>
+<div class = "top">
+  <h1>We design great products that have long lasting value.</h1>
+  <p>In order to make the world a slightly better place.</p>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Text</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class = "mid-pic">
+    <img src = "https://bien.studio/wp-content/uploads/2020/11/bien-team.jpg">
+</div>
 
-  <tbody>
-    <% @approaches.each do |approach| %>
-      <tr>
-        <td><%= approach.text %></td>
-        <td><%= link_to 'Show', approach %></td>
-        <td><%= link_to 'Edit', edit_approach_path(approach) %></td>
-        <td><%= link_to 'Destroy', approach, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<div class = "mid-text">
+    <h2>Bien is <u>7 people</u> that are</h2>
+    <div class = "scroll">
+        <marquee behavior="scroll" scrollamount="10" direction="up">
+            <p>Here is some scrolling text... going up!</p><p>vonne rubio sunkissed</p>
+            
+        </marquee>
+    </div>
 
-<br>
 
-<%= link_to 'New Approach', new_approach_path %>
+</div>
+
+
+<div class = "mid-pic-2">
+    <img src = "https://bien.studio/wp-content/uploads/2020/11/animacija-bw.gif">
+</div>
+
+<div class = "mid-text-2">
+    <div class = "top">
+        <h2>We've helped teams with</h2>
+    </div>
+    <div class = "bottom">
+        <div class = "one">
+            <h3>Improving existing products</h3>
+            <p>We worked with already established companies that need continuous and dedicated work on existing features and redesigns of certain modules with legacy in mind.</p>
+        </div>
+        <div class = "two">
+            <h3>Launching startups</h3>
+            <p>We’ve branded and confirmed ideas through design loops before launching MVP’s. We’ve been able to help launch a number of startups from scratch.</p>
+        </div>
+        <div class = "three">
+            <h3>Product consulting</h3>
+            <p>We used our expertise in user experience to deliver unbiased reviews of digital products already on the market, along with those not yet launched.</p>
+        </div>
+    </div>
+    
+</div>

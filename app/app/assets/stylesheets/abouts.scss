@@ -5,6 +5,7 @@
 
 .body{
 background-color: #161616;
+height: 10000px;
 }
 
 
@@ -64,5 +65,30 @@ background-color: #161616;
 }
 
 #client-logo{
-    width: 5%;
+    width: 7%;
 }
+
+.team-index{
+   margin-right: 2000px;
+}
+
+.team-card {
+        width: 130px;
+        height: 195px;
+        position: relative;
+        display: inline-block;
+        margin: 50px;
+}
+
+.team-card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.team-card:hover .img-top {
+    display: inline;    
+}
+

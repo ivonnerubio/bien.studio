@@ -3,10 +3,265 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.body{
+.whole{
+background-color: #121212;
+height: auto;
+
+}
+
+
+.top-header{
+    padding: 83px 26px 0px;
+    position: center;
+    height: 176px;
+
+}
+
+.top-header h1{
+    font-size: 44px;
+    color: white;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 2px;
+}
+
+
+.mid-pic{
+    height: 200px;
+}
+
+#mid-pic{
+    width: 180px;
+    margin-left: 0px;
+    padding-right: 5px;
+}
+#mid-pic2{
+    width: 180px;
+    margin-right: 0px;
+    padding-left: 5px;
+}
+
+
+.values{
+    padding-top: 74px;
+    padding-left: 25px;
+    height: auto;
+    width: 345px;
+}
+
+.values-header{
+    margin-bottom: 55px;
+}
+
+
+
+.values-text h1{
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 25px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.clients{
+    padding-top: 70px;
+    padding-left: 25px;
+    position: center;
+
+}
+
+.clients p{
+    font-size: 17px;
+    color: lightgray;
+    padding-bottom: 100px;
+}
+
+#client-logo{
+    width: 60px;
+    padding-bottom: 215px;
+    display: block;
+    margin-left: 125px;
+    position: center;
+}
+
+
+
+
+
+
+
+
+
+
+.team-index{
+   margin-right: 2000px;
+}
+
+.team-card {
+    
+    position: relative;
+    display: inline-block;
+ 
+}
+
+.team-index h1{
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: lightgray;
+    width: 400px;
+}
+
+.team-card img{
+    width: 375px;
+}
+
+.team-card .img-top {
+    display: none;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.team-card:hover .img-top {
+    display: inline;    
+}
+
+.card-text{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.card-text h1{
+    font-weight: 300;
+}
+.card-text p {
+    position: relative;
+    top: -20px;
+    font-size: 17px;
+}
+
+
+.card-text h2{
+    position: relative;
+    top: -25px;
+    font-weight: 300;
+    color: gray;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.work-together{
+  background: #121212;
+  padding: 90px 0px;
+  height: 750px;
+}
+
+.content{
+  padding-left: 25px;
+  padding-top: 4px;
+  width: 300px;
+
+}
+
+#header{
+  padding-top: 75px;
+  color: white;
+  font-size: 38px;
+  line-height: 58px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  
+}
+
+.email{
+  padding-top: 50px;
+}
+
+.email h2{
+  font-size: 15px;
+  color: white; 
+  font-weight: 300;
+}
+
+.email a{
+  font-size: 17px;
+  color: white; 
+  font-weight: 300;
+}
+
+
+.social-media{
+  margin-top: 35px;
+  width: 350px;
+  height: 40px;
+}
+
+.social-media h2{
+  font-size: 15.5px;
+  color: gray; 
+  line-height: 10px;
+  font-weight: 300;
+}
+
+.social-media p{
+  font-size: 15.5px;
+  line-height: 10px;
+  color: gray; 
+  font-weight: 300;
+}
+
+.social-media a{
+  font-size: 15.5px;
+  line-height: 10px;
+  color: gray; 
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    .body{
 background-color: #161616;
 height: 10000px;
-}
+
 
 
 .top-header{
@@ -92,3 +347,7 @@ height: 10000px;
     display: inline;    
 }
 
+
+}
+    
+}

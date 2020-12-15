@@ -10,26 +10,27 @@
 
 
 .header {
-  padding: 65px 22px;
-  height: 170px;
+  padding: 58px 24px;
+  height: 173px;
   margin: auto;
   text-align: left;
 }
 
 .header h1{
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+  font-family: Calibri, sans-serif;
   font-size: 41px; 
   font-style: normal;  
   font-variant: normal; 
-  font-weight: 500; 
+  font-weight: 400; 
   line-height: 15.4px;
+  color: black;
   letter-spacing: 1.5px;
 }
 
 .project{
-  height: 135px;
+  height: 136px;
   text-align: center;
-  padding: 5px 23px;
+  padding: 0px 23px;
 }
 
 .project-text{
@@ -43,16 +44,19 @@
   padding: 15px 0px;
 }
 
-.project a { font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
-font-size: 38px; 
+.project a { 
+font-family: Calibri, sans-serif;
+font-size: 36px; 
 font-style: normal; 
 font-variant: normal; 
-font-weight: 500; 
+font-weight: 400; 
+letter-spacing: 1.0px;
 line-height: 15.4px;
 text-decoration: none; 
 position: relative;
 color: black;
 background: transparent;
+padding-left: 1px;
 }
 
 
@@ -61,27 +65,37 @@ background: transparent;
 }
 
 
-p { font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
-font-size: 18px; 
+p { 
+font-family: Calibri, sans-serif;
+font-size: 16.5px; 
 font-style: normal; 
+letter-spacing: 0px;
 font-variant: normal; 
-font-weight: 100px; 
+font-weight: lighter; 
 line-height: 20px; 
 color: gray;
 position: relative;
-left: -30px;
+left: -32px;
+top: 3px;
 }
 
 
+
+
+
+
+
+
+
 .work-together{
-  background: #161616;
+  background: #121212;
   padding: 90px 0px;
-  height: 1000px;
+  height: 750px;
 }
 
 .content{
   padding-left: 25px;
-  padding-top: 5px;
+  padding-top: 4px;
   width: 300px;
 
 }
@@ -89,24 +103,24 @@ left: -30px;
 #header{
   color: white;
   font-size: 38px;
-  line-height: 60px;
+  line-height: 58px;
   font-weight: 300;
   letter-spacing: 1px;
   
 }
 
 .email{
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .email h2{
-  font-size: 16px;
+  font-size: 15px;
   color: white; 
   font-weight: 300;
 }
 
 .email a{
-  font-size: 16px;
+  font-size: 17px;
   color: white; 
   font-weight: 300;
 }
@@ -115,14 +129,30 @@ left: -30px;
 .social-media{
   margin-top: 35px;
   width: 350px;
-  color: gray;
+  height: 40px;
 }
 
-.card{
-  font-size: 16px;
-  
-  line-height: 30px;
+.social-media h2{
+  font-size: 15.5px;
+  color: gray; 
+  line-height: 10px;
+  font-weight: 300;
 }
+
+.social-media p{
+  font-size: 15.5px;
+  line-height: 10px;
+  color: gray; 
+  font-weight: 300;
+}
+
+.social-media a{
+  font-size: 15.5px;
+  line-height: 10px;
+  color: gray; 
+  font-weight: 300;
+}
+
 
 
 

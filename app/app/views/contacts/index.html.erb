@@ -1,27 +1,71 @@
+<head>
+  
+<script>
+  function updateClock() {
+    var currentTime = new Date();
+    // Operating System Clock Hours for 12h clock
+    var currentHoursAP = currentTime.getHours();
+    // Operating System Clock Hours for 24h clock
+    var currentHours = currentTime.getHours();
+    // Operating System Clock Minutes
+    var currentMinutes = currentTime.getMinutes();
+    // Operating System Clock Seconds
+    var currentSeconds = currentTime.getSeconds();
+    // Adding 0 if Minutes & Seconds is More or Less than 10
+    currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
+    currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
+    // Picking "AM" or "PM" 12h clock if time is more or less than 12
+    var timeOfDay = (currentHours < 12) ? "AM" : "PM";
+    // transform clock to 12h version if needed
+    currentHoursAP = (currentHours > 12) ? currentHours - 12 : currentHours;
+    // transform clock to 12h version after mid night
+    currentHoursAP = (currentHoursAP == 0) ? 12 : currentHoursAP;
+    // display first 24h clock and after line break 12h version
+    var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + "";
+    // print clock js in div #clock.
+    $("#clock").html(currentTimeString);}
+    $(document).ready(function () {
+    setInterval(updateClock, 1000);
+});
+</script>
+
+</head>
+
+
+
+
 <p id="notice"><%= notice %></p>
 
-<h1>Contacts</h1>
+<div class = "contact-main">
+  <div class = "contact-header">
+    <h1>We should work together.</h1>
+  </div>
+  <div class = "contact-middle">
+    <h3>Business inquiries / Contact</h3>
+    <h2>hello@bien.studio</h2>
+  </div>    
+  <div class = "contact-clock">
+    <h3>Kneza Mislava 4, Zagreb, Croatia</h3>
+    <div id="clock"></div>
+  </div>
+  <div class = "contact-social">
+    <div class = "contact-card">
+      <h1>Follow us on</h1>
+      <a href = "https://www.instagram.com/studiobien/"><h2>Instagram</h2></a>
+    </div>
+    <div class = "contact-card">
+      <h1>We also (rarely) post on</h1>
+      <a href = "https://m.facebook.com/Bien.design.studio/"><h2>FaceBook</h2></a>
+    </div>
+    <div class = "contact-card">
+      <h1>See our work</h1>
+      <a href = "https://dribbble.com/bien"><h2>Dribbble</h2></a>
+    </div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Text</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  </div>
 
-  <tbody>
-    <% @contacts.each do |contact| %>
-      <tr>
-        <td><%= contact.text %></td>
-        <td><%= link_to 'Show', contact %></td>
-        <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-        <td><%= link_to 'Destroy', contact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+</div>
 
-<br>
 
-<%= link_to 'New Contact', new_contact_path %>
+
+

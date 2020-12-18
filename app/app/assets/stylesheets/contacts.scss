@@ -1,3 +1,83 @@
 // Place all the styles related to the contacts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.contact-main{
+    padding-left: 25px;
+    padding-top: 120px;
+}
+
+.contact-header h1{
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 65px;
+}
+
+.contact-middle{
+    padding-top: 50px;
+}
+
+.contact-middle h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-middle h2{
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.contact-clock{
+    padding-top: 50px;
+}
+
+.contact-clock h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+#clock {
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  line-height: 40px;
+  font-size: 34px;
+}
+
+
+.contact-social{
+    padding-top: 135px;
+}
+
+.contact-social h1{
+    font-size: 17px;
+    color: gray;
+    font-weight: 300;
+}
+
+.contact-social h2{
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.contact-card{
+    padding-bottom: 50px;
+    
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+
+}

@@ -1,3 +1,123 @@
 // Place all the styles related to the notes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.notes{
+    padding-left: 25px;
+}
+
+
+.note-header{
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+
+.note-header h1{
+    font-size: 46px;
+    font-weight: 300;
+}
+#note-card h2{
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+}
+
+#note-card h1{
+    font-size: 38px;
+    color: black;
+    font-weight: 300;
+}
+
+
+.note-card{
+    padding-bottom: 30px;
+}
+
+.work-together{
+  background: #121212;
+  padding: 90px 0px;
+  height: 750px;
+}
+
+.content{
+  padding-left: 25px;
+  padding-top: 4px;
+  width: 300px;
+
+}
+
+#header{
+  color: white;
+  font-size: 38px;
+  line-height: 58px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  
+}
+
+.email{
+  padding-top: 50px;
+}
+
+.email h2{
+  font-size: 15px;
+  color: white; 
+  font-weight: 300;
+}
+
+.email a{
+  font-size: 17px;
+  color: white; 
+  font-weight: 300;
+}
+
+
+.social-media{
+  margin-top: 35px;
+  width: 350px;
+  height: 40px;
+}
+
+.social-media h2{
+  font-size: 15.5px;
+  color: gray; 
+  line-height: 10px;
+  font-weight: 300;
+}
+
+.social-media p{
+  font-size: 15.5px;
+  line-height: 10px;
+  color: gray; 
+  font-weight: 300;
+}
+
+.social-media a{
+  font-size: 15.5px;
+  line-height: 10px;
+  color: gray; 
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+
+}
